@@ -12,7 +12,6 @@ A secure web application built with the MERN stack (MongoDB, Express.js, React, 
   - Browse all your documents
   - Filter by “Owned” or “Shared”
   - View details and perform actions (edit, delete, download)
-- **Search & Filtering:** Find documents by filename, type, or description.
 - **Document Metadata Editing:** Update the type and description of documents you own.
 - **Document Sharing:** Share specific documents with selected linked family members.
 - **Access Control:** Backend authorization ensures users can only access, modify, or share documents based on ownership or explicit permissions.
