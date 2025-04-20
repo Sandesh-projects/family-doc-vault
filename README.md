@@ -20,8 +20,6 @@ A secure web application built with the MERN stack (MongoDB, Express.js, React, 
 
 ## 📸 Screenshots
 
-> _(Replace these placeholders with actual screenshots of your application)_
-
 - **Login Page:**  
   ![Login Page](screenshots/Loginpage.png)
 
