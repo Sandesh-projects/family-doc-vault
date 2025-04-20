@@ -30,6 +30,8 @@ A secure web application built with the MERN stack (MongoDB, Express.js, React, 
 
 - **Document List Page:**  
   ![Document List](screenshots/documentlist.png)
+- **Document Shared With you Page:**  
+  ![Document List](screenshots/ViewDocumentSharedWithYou.png)
 
 - **Document Upload Page:**  
   ![Upload Page](screenshots/documentupload.png)
