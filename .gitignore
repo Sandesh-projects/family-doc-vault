@@ -1,0 +1,25 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore backend specific files
+/backend/uploads/ # Ignore uploaded files
+/backend/logs/    # Ignore backend log files
+
+# Ignore frontend build output directory (Vite default is 'dist')
+/frontend-vite/dist/
+
+# Ignore package-lock.json if you prefer yarn.lock, or vice-versa
+# package-lock.json
+# yarn.lock
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor specific files (optional)
+.vscode/
+.idea/
+*.swp
