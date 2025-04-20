@@ -1,0 +1,848 @@
+2025-04-20 10:57:09 INFO: Server running on port 5000
+2025-04-20 10:57:09 INFO: MongoDB Connected: localhost
+2025-04-20 10:57:18 INFO: Server running on port 5000
+2025-04-20 10:57:18 INFO: MongoDB Connected: localhost
+2025-04-20 11:25:05 INFO: Server running on port 5000
+2025-04-20 11:25:05 INFO: MongoDB Connected: localhost
+2025-04-20 11:32:16 INFO: Server running on port 5000
+2025-04-20 11:32:16 INFO: MongoDB Connected: localhost
+2025-04-20 11:34:28 INFO: Server running on port 5000
+2025-04-20 11:34:28 INFO: MongoDB Connected: localhost
+2025-04-20 11:50:23 INFO: Server running on port 5000
+2025-04-20 11:50:23 INFO: MongoDB Connected: localhost
+2025-04-20 11:50:25 WARN: Authentication failed: Token verification error - invalid signature
+2025-04-20 11:50:25 ERROR: Error: Not authorized to access this route (Invalid token)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:56:19
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 11:50:25 WARN: Authentication failed: Token verification error - invalid signature
+2025-04-20 11:50:25 ERROR: Error: Not authorized to access this route (Invalid token)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:56:19
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 11:51:17 INFO: User registered successfully: sandesh@mail.com (ID: 6804925d74001ab817b71ab5)
+2025-04-20 11:51:17 ERROR: Error: "expiresIn" should be a number of seconds or string representing a timespan
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:56:15
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userSchema.methods.getSignedJwtToken (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\models\User.js:71:14)
+    at sendTokenResponse (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:89:22)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:47:3
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:51:45 WARN: Registration failed: Email already exists for sandesh@mail.com
+2025-04-20 11:51:45 ERROR: Error: User already exists with this email
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:23:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:52:08 INFO: User registered successfully: ganesh@mail.com (ID: 6804929074001ab817b71aba)
+2025-04-20 11:52:08 ERROR: Error: "expiresIn" should be a number of seconds or string representing a timespan
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:56:15
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userSchema.methods.getSignedJwtToken (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\models\User.js:71:14)
+    at sendTokenResponse (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:89:22)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:47:3
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:52:49 WARN: Login failed: Invalid password for email ganesh@mail.com
+2025-04-20 11:52:49 ERROR: Error: Invalid credentials
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:75:17
+2025-04-20 11:52:56 WARN: Login failed: Invalid password for email ganesh@mail.com
+2025-04-20 11:52:56 ERROR: Error: Invalid credentials
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:75:17
+2025-04-20 11:53:39 INFO: User registered successfully: alok@mail.com (ID: 680492eb74001ab817b71ac0)
+2025-04-20 11:53:39 ERROR: Error: "expiresIn" should be a number of seconds or string representing a timespan
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:56:15
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userSchema.methods.getSignedJwtToken (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\models\User.js:71:14)
+    at sendTokenResponse (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:89:22)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:47:3
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:55:58 INFO: Server running on port 5000
+2025-04-20 11:55:58 INFO: MongoDB Connected: localhost
+2025-04-20 11:56:25 INFO: User registered successfully: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:56:29 INFO: User logged in successfully: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:56:29 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:56:29 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:56:37 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:56:38 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:56:41 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:56:41 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:56:55 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:56:55 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:57:39 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:57:39 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:57:49 WARN: Add family member failed for user 6804939158235f273b5d67ca: User not found with identifier email "sandesh.vlcs@gmail.com"
+2025-04-20 11:57:49 ERROR: Error: User not found with the provided identifier
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:177:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:57:53 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:57:53 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 11:57:54 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:57:54 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:57:59 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:57:59 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:58:43 WARN: Document upload failed: No file received for user 6804939158235f273b5d67ca
+2025-04-20 11:58:43 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:58:51 WARN: Document upload failed: No file received for user 6804939158235f273b5d67ca
+2025-04-20 11:58:51 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:59:03 WARN: Document upload failed: No file received for user 6804939158235f273b5d67ca
+2025-04-20 11:59:03 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:59:20 WARN: Document upload failed: No file received for user 6804939158235f273b5d67ca
+2025-04-20 11:59:20 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:59:28 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:59:28 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 11:59:31 INFO: Workspaceed 0 documents for user 6804939158235f273b5d67ca (Total: 0)
+2025-04-20 12:00:00 INFO: User registered successfully: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:03 INFO: User logged in successfully: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:03 INFO: Workspaceed 0 documents for user 6804946858235f273b5d6806 (Total: 0)
+2025-04-20 12:00:03 INFO: Workspaceed 0 documents for user 6804946858235f273b5d6806 (Total: 0)
+2025-04-20 12:00:05 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:05 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:06 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:06 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:09 INFO: User profile updated successfully: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:11 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:11 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:11 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:11 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:12 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:12 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:21 INFO: Mutual family link created between 6804946858235f273b5d6806 and 6804939158235f273b5d67ca
+2025-04-20 12:00:21 INFO: User 6804946858235f273b5d6806 linked user 6804939158235f273b5d67ca as family member
+2025-04-20 12:00:22 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:22 WARN: Login failed: Missing email or password
+2025-04-20 12:00:22 ERROR: Error: Please provide an email and password
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:59:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 12:00:26 INFO: Workspaceed 0 documents for user 6804946858235f273b5d6806 (Total: 0)
+2025-04-20 12:00:26 INFO: Workspaceed 0 documents for user 6804946858235f273b5d6806 (Total: 0)
+2025-04-20 12:00:27 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:27 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:49 WARN: Add family member failed for user 6804946858235f273b5d6806: User 6804939158235f273b5d67ca is already linked
+2025-04-20 12:00:49 ERROR: Error: This user is already linked as a family member
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:198:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:00:52 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:00:52 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:02:36 INFO: Server running on port 5000
+2025-04-20 12:02:36 INFO: MongoDB Connected: localhost
+2025-04-20 12:02:48 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:02:48 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:03:57 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:03:57 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:04:26 INFO: Workspaceed 0 documents for user 6804946858235f273b5d6806 (Total: 0)
+2025-04-20 12:04:26 INFO: Workspaceed 0 documents for user 6804946858235f273b5d6806 (Total: 0)
+2025-04-20 12:04:44 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:04:44 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:04:50 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:04:50 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:05:11 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:05:11 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:06:27 INFO: Server running on port 5000
+2025-04-20 12:06:27 INFO: MongoDB Connected: localhost
+2025-04-20 12:06:34 INFO: Server running on port 5000
+2025-04-20 12:06:34 INFO: MongoDB Connected: localhost
+2025-04-20 12:07:13 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:07:13 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:08:28 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:08:28 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:09:17 INFO: Server running on port 5000
+2025-04-20 12:09:17 INFO: MongoDB Connected: localhost
+2025-04-20 12:09:20 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:09:20 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:11:10 INFO: Server running on port 5000
+2025-04-20 12:11:10 INFO: MongoDB Connected: localhost
+2025-04-20 12:11:14 INFO: Server running on port 5000
+2025-04-20 12:11:14 INFO: MongoDB Connected: localhost
+2025-04-20 12:11:15 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:11:15 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\routes\documents.js:54:9
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+2025-04-20 12:11:19 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:11:19 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\routes\documents.js:54:9
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+2025-04-20 12:11:27 INFO: Server running on port 5000
+2025-04-20 12:11:27 INFO: MongoDB Connected: localhost
+2025-04-20 12:11:29 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:11:29 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\routes\documents.js:54:9
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+2025-04-20 12:13:44 WARN: Document upload failed: No file received for user 6804946858235f273b5d6806
+2025-04-20 12:13:44 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\routes\documents.js:54:9
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+2025-04-20 12:18:25 INFO: Server running on port 5000
+2025-04-20 12:18:25 INFO: MongoDB Connected: localhost
+2025-04-20 12:18:37 INFO: Document uploaded successfully: "AIDS Mini Project Report.docx" by user 6804946858235f273b5d6806
+2025-04-20 12:18:39 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:18:39 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:18:45 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:45 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:49 INFO: Initiating download for document "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:49 INFO: Download completed successfully for document "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:55 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:55 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:56 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:56 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:57 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:57 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:18:57 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:18:57 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:18:57 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:18:57 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:19:01 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:19:01 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:19:02 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:19:02 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:19:04 INFO: Workspaceed 0 documents for user 6804946858235f273b5d6806 (Total: 0)
+2025-04-20 12:19:06 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:19:47 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:19:47 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:19:48 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:19:48 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:19:54 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:19:54 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:19:54 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:19:54 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:19:54 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:19:54 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:19:54 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:19:55 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:19:57 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:19:57 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:19:57 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:19:57 INFO: Workspaceed 1 documents for user 6804946858235f273b5d6806 (Total: 1)
+2025-04-20 12:20:12 INFO: Document uploaded successfully: "DS-11.pdf" by user 6804946858235f273b5d6806
+2025-04-20 12:20:14 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:20:14 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:20:24 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:24 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:26 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:20:26 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:20:27 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:27 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:31 INFO: Initiating download for document "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:32 INFO: Download completed successfully for document "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:35 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:35 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:35 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:20:35 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:20:35 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:20:35 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:20:38 ERROR: ReferenceError: mongoose is not defined
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:71
+    at Array.some (<anonymous>)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:60
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:20:52 INFO: Server running on port 5000
+2025-04-20 12:20:52 INFO: MongoDB Connected: localhost
+2025-04-20 12:20:53 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:20:53 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:21:00 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:21:00 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:21:10 INFO: Document updated successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:21:12 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:21:12 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:21:55 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:21:55 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:21:58 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:22:04 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:22:04 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:22:30 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:22:30 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:22:30 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:22:30 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:22:33 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:22:33 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:22:33 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:22:33 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:22:33 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:22:33 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:22:35 ERROR: ReferenceError: mongoose is not defined
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:71
+    at Array.some (<anonymous>)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:60
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:22:58 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:22:58 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:22:59 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:22:59 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:22:59 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:22:59 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:22:59 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:22:59 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:23:00 ERROR: ReferenceError: mongoose is not defined
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:71
+    at Array.some (<anonymous>)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:60
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:23:22 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:23:22 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:23:24 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:23:24 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:23:24 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:23:24 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:23:24 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:23:24 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:23:27 ERROR: ReferenceError: mongoose is not defined
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:71
+    at Array.some (<anonymous>)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:60
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:24:07 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:24:07 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804992498edd0247ff72d53) by user 6804946858235f273b5d6806
+2025-04-20 12:24:08 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:24:08 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:24:40 INFO: Server running on port 5000
+2025-04-20 12:24:40 INFO: MongoDB Connected: localhost
+2025-04-20 12:24:57 INFO: Server running on port 5000
+2025-04-20 12:24:57 INFO: MongoDB Connected: localhost
+2025-04-20 12:25:09 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:09 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:09 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:25:09 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:25:09 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:25:09 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:25:12 INFO: Document 6804992498edd0247ff72d53 shared/updated sharedWith list by user 6804946858235f273b5d6806 with members: 6804939158235f273b5d67ca
+2025-04-20 12:25:14 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:14 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:15 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:15 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:15 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:25:15 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:25:15 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:25:15 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:25:17 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:17 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:19 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 2, Total: 2
+2025-04-20 12:25:19 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 2, Total: 2
+2025-04-20 12:25:24 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:24 INFO: Document 6804992498edd0247ff72d53 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:25:26 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 2, Total: 2
+2025-04-20 12:25:26 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 2, Total: 2
+2025-04-20 12:25:50 INFO: Server running on port 5000
+2025-04-20 12:25:50 INFO: MongoDB Connected: localhost
+2025-04-20 12:25:54 INFO: Server running on port 5000
+2025-04-20 12:25:54 INFO: MongoDB Connected: localhost
+2025-04-20 12:26:02 INFO: File deleted successfully: C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\uploads\document-1745131812455.pdf
+2025-04-20 12:26:02 INFO: Document 6804992498edd0247ff72d53 deleted by user 6804946858235f273b5d6806
+2025-04-20 12:26:02 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:26:06 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:26:06 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:28:37 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:28:37 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:32:59 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:32:59 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:32:59 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:32:59 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:34:02 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:34:02 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:34:04 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:34:04 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:34:04 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:34:04 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:34:09 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:34:09 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:34:09 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:34:09 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:40:23 INFO: User logged in successfully: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:40:23 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:40:23 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:40:26 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:40:28 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:40:34 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:40:34 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:40:37 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:40:39 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:40:43 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:40:43 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:40:43 INFO: User profile 6804946858235f273b5d6806 retrieved by user 6804939158235f273b5d67ca
+2025-04-20 12:40:43 INFO: User profile 6804946858235f273b5d6806 retrieved by user 6804939158235f273b5d67ca
+2025-04-20 12:40:52 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:40:52 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:40:53 INFO: User profile updated successfully: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:40:55 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:40:55 INFO: User profile retrieved: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:40:55 INFO: User profile 6804946858235f273b5d6806 retrieved by user 6804939158235f273b5d67ca
+2025-04-20 12:40:55 INFO: User profile 6804946858235f273b5d6806 retrieved by user 6804939158235f273b5d67ca
+2025-04-20 12:40:56 INFO: User profile 6804946858235f273b5d6806 retrieved by user 6804939158235f273b5d67ca
+2025-04-20 12:40:56 INFO: User profile 6804946858235f273b5d6806 retrieved by user 6804939158235f273b5d67ca
+2025-04-20 12:41:17 INFO: User logged in successfully: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:17 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:17 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:20 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 0, Total: 0
+2025-04-20 12:41:22 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:24 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:24 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:24 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:24 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:25 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:25 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:27 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:27 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:27 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:27 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:28 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:28 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:34 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:34 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:34 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:34 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:36 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:36 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:37 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:37 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:37 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:37 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:40 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:40 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:47 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:41:47 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:41:47 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:47 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:41:47 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:47 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:41:49 INFO: Document 680498c598edd0247ff72cf6 shared/updated sharedWith list by user 6804946858235f273b5d6806 with members: 6804939158235f273b5d67ca
+2025-04-20 12:41:51 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:41:51 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:41:59 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:41:59 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:42:05 INFO: User logged in successfully: ganesh@mail.com (ID: 6804939158235f273b5d67ca)
+2025-04-20 12:42:05 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:42:05 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:42:08 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 1, Total: 1
+2025-04-20 12:42:11 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804939158235f273b5d67ca
+2025-04-20 12:42:11 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804939158235f273b5d67ca
+2025-04-20 12:42:17 INFO: Document 680498c598edd0247ff72cf6 downloaded by user 6804939158235f273b5d67ca
+2025-04-20 12:42:51 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:42:51 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:42:53 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 1, Total: 1
+2025-04-20 12:42:56 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804939158235f273b5d67ca
+2025-04-20 12:42:56 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804939158235f273b5d67ca
+2025-04-20 12:43:00 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804939158235f273b5d67ca
+2025-04-20 12:43:00 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804939158235f273b5d67ca
+2025-04-20 12:43:02 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:43:02 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:43:04 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 1, Total: 1
+2025-04-20 12:43:06 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804939158235f273b5d67ca
+2025-04-20 12:43:06 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804939158235f273b5d67ca
+2025-04-20 12:43:21 WARN: Update document failed: User 6804939158235f273b5d67ca not authorized to update document 680498c598edd0247ff72cf6
+2025-04-20 12:43:21 ERROR: Error: Not authorized to update this document
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:261:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:43:24 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:43:24 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 0, Total: 0
+2025-04-20 12:43:27 INFO: Documents list fetched for user 6804939158235f273b5d67ca. Count: 1, Total: 1
+2025-04-20 12:44:33 INFO: User registered successfully: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:44:36 INFO: User logged in successfully: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:44:36 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:44:36 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:44:39 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:44:41 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:44:42 INFO: User profile retrieved: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:44:42 INFO: User profile retrieved: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:44:50 WARN: Add family member failed for user 68049ed945f11d63c1f77b0a: User not found with identifier email "sandesh.vlcs@gmail.com"
+2025-04-20 12:44:50 ERROR: Error: User not found with the provided identifier
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:177:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:45:00 INFO: Mutual family link created between 68049ed945f11d63c1f77b0a and 6804946858235f273b5d6806
+2025-04-20 12:45:00 INFO: User 68049ed945f11d63c1f77b0a linked user 6804946858235f273b5d6806 as family member
+2025-04-20 12:45:00 INFO: User profile retrieved: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:45:00 WARN: Login failed: Missing email or password
+2025-04-20 12:45:00 ERROR: Error: Please provide an email and password
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:59:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 12:45:05 INFO: User profile retrieved: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:45:05 INFO: User profile retrieved: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:45:05 INFO: User profile 6804946858235f273b5d6806 retrieved by user 68049ed945f11d63c1f77b0a
+2025-04-20 12:45:05 INFO: User profile 6804946858235f273b5d6806 retrieved by user 68049ed945f11d63c1f77b0a
+2025-04-20 12:45:07 INFO: User logged in successfully: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:45:07 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:45:07 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:45:09 INFO: User profile retrieved: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:45:09 INFO: User profile retrieved: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:45:09 INFO: User profile 6804946858235f273b5d6806 retrieved by user 68049ed945f11d63c1f77b0a
+2025-04-20 12:45:09 INFO: User profile 6804946858235f273b5d6806 retrieved by user 68049ed945f11d63c1f77b0a
+2025-04-20 12:45:11 INFO: User profile 6804946858235f273b5d6806 retrieved by user 68049ed945f11d63c1f77b0a
+2025-04-20 12:45:11 INFO: User profile 6804946858235f273b5d6806 retrieved by user 68049ed945f11d63c1f77b0a
+2025-04-20 12:45:27 INFO: User logged in successfully: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:45:27 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:45:27 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1
+2025-04-20 12:45:29 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:45:29 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:45:29 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:45:29 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:45:29 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:45:29 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:45:29 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:45:29 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:45:45 INFO: Document 680498c598edd0247ff72cf6 shared/updated sharedWith list by user 6804946858235f273b5d6806 with members: 6804939158235f273b5d67ca, 68049ed945f11d63c1f77b0a
+2025-04-20 12:45:47 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:45:47 INFO: Document 680498c598edd0247ff72cf6 fetched by user 6804946858235f273b5d6806
+2025-04-20 12:45:57 INFO: User logged in successfully: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:45:57 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:45:57 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:46:01 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 1, Total: 1
+2025-04-20 12:46:03 INFO: Document 680498c598edd0247ff72cf6 fetched by user 68049ed945f11d63c1f77b0a
+2025-04-20 12:46:03 INFO: Document 680498c598edd0247ff72cf6 fetched by user 68049ed945f11d63c1f77b0a
+2025-04-20 12:46:06 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:46:06 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0
+2025-04-20 12:46:43 INFO: Server running on port 5000
+2025-04-20 12:46:43 INFO: MongoDB Connected: localhost
+2025-04-20 12:49:16 INFO: User logged in successfully: alok@mail.com (ID: 68049ed945f11d63c1f77b0a)
+2025-04-20 12:49:16 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:49:16 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:49:19 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true","shared":"true"}
+2025-04-20 12:49:22 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:49:22 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 0, Total: 0. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:49:24 INFO: Documents list fetched for user 68049ed945f11d63c1f77b0a. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","shared":"true"}
+2025-04-20 12:49:35 INFO: User logged in successfully: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:49:35 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:49:35 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:49:56 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true","shared":"true"}
+2025-04-20 12:49:58 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true","shared":"true"}
+2025-04-20 12:49:59 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 0, Total: 0. Filters: {"page":"1","limit":"10","shared":"true"}
+2025-04-20 12:50:01 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 0, Total: 0. Filters: {"page":"1","limit":"10","shared":"true"}
+2025-04-20 12:50:02 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:50:13 ERROR: ValidationError: Document validation failed: fileMimeType: File MIME type is required
+    at Document.invalidate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3351:32)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3112:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-04-20 12:50:22 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:50:22 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:50:28 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:50:30 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:50:30 INFO: Documents list fetched for user 6804946858235f273b5d6806. Count: 1, Total: 1. Filters: {"page":"1","limit":"10","owned":"true"}
+2025-04-20 12:50:42 ERROR: ValidationError: Document validation failed: fileMimeType: File MIME type is required
+    at Document.invalidate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3351:32)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3112:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-04-20 12:50:55 INFO: Server running on port 5000
+2025-04-20 12:50:55 INFO: MongoDB Connected: localhost
+2025-04-20 12:50:58 ERROR: ValidationError: Document validation failed: fileMimeType: File MIME type is required
+    at Document.invalidate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3351:32)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3112:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-04-20 12:52:19 INFO: Server running on port 5000
+2025-04-20 12:52:19 INFO: MongoDB Connected: localhost
+2025-04-20 12:52:23 INFO: Document uploaded successfully: "DS-11.pdf" by user 6804946858235f273b5d6806
+2025-04-20 12:52:25 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:52:25 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:52:33 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:52:33 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 12:52:36 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:52:36 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:52:40 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804a0af3f702656437af649) by user 6804946858235f273b5d6806
+2025-04-20 12:52:40 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804a0af3f702656437af649) by user 6804946858235f273b5d6806
+2025-04-20 12:52:41 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:52:41 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:52:43 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804a0af3f702656437af649) by user 6804946858235f273b5d6806
+2025-04-20 12:52:43 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804a0af3f702656437af649) by user 6804946858235f273b5d6806
+2025-04-20 12:52:44 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:52:44 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:52:48 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:52:48 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:52:48 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:48 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:48 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:48 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:54 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:54 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:54 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:54 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:57 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:52:57 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:52:57 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:57 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:57 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:57 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:58 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:58 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:58 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:52:58 INFO: User profile 68049ed945f11d63c1f77b0a retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:00 INFO: Mutual family link removed between 6804946858235f273b5d6806 and 68049ed945f11d63c1f77b0a
+2025-04-20 12:53:00 INFO: User 6804946858235f273b5d6806 unlinked user 68049ed945f11d63c1f77b0a from family members
+2025-04-20 12:53:00 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:00 WARN: Login failed: Missing email or password
+2025-04-20 12:53:00 ERROR: Error: Please provide an email and password
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:59:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 12:53:00 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:00 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:00 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:00 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:00 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:00 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:10 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:10 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:10 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:10 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:10 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:10 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:10 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:10 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:10 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:10 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:11 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:11 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:11 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:11 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:12 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:12 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:12 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:12 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:12 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:12 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:14 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:14 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:14 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:14 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:14 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:14 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:15 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:15 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:15 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:15 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:17 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:17 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:17 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:17 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:17 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:17 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:18 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:18 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:18 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:18 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:19 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:19 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:19 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:19 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:20 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:20 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:20 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:20 WARN: Access denied to user profile 68049ed945f11d63c1f77b0a for user 6804946858235f273b5d6806 (Not self or family member)
+2025-04-20 12:53:20 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:20 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:21 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:21 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:21 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:21 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:23 INFO: User logged in successfully: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:23 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:53:23 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 12:53:25 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:25 INFO: User profile retrieved: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 12:53:25 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:25 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:26 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 12:53:26 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806

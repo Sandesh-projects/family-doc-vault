@@ -1,0 +1,335 @@
+2025-04-20 11:50:25 ERROR: Error: Not authorized to access this route (Invalid token)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:56:19
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 11:50:25 ERROR: Error: Not authorized to access this route (Invalid token)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:56:19
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 11:51:17 ERROR: Error: "expiresIn" should be a number of seconds or string representing a timespan
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:56:15
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userSchema.methods.getSignedJwtToken (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\models\User.js:71:14)
+    at sendTokenResponse (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:89:22)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:47:3
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:51:45 ERROR: Error: User already exists with this email
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:23:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:52:08 ERROR: Error: "expiresIn" should be a number of seconds or string representing a timespan
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:56:15
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userSchema.methods.getSignedJwtToken (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\models\User.js:71:14)
+    at sendTokenResponse (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:89:22)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:47:3
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:52:49 ERROR: Error: Invalid credentials
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:75:17
+2025-04-20 11:52:56 ERROR: Error: Invalid credentials
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:75:17
+2025-04-20 11:53:39 ERROR: Error: "expiresIn" should be a number of seconds or string representing a timespan
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:56:15
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userSchema.methods.getSignedJwtToken (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\models\User.js:71:14)
+    at sendTokenResponse (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:89:22)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:47:3
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:57:49 ERROR: Error: User not found with the provided identifier
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:177:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:58:43 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:58:51 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:59:03 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 11:59:20 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:00:22 ERROR: Error: Please provide an email and password
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:59:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 12:00:49 ERROR: Error: This user is already linked as a family member
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:198:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:04:44 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:04:50 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:05:11 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:20:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:07:13 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:08:28 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:09:20 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:11:15 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\routes\documents.js:54:9
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+2025-04-20 12:11:19 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\routes\documents.js:54:9
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+2025-04-20 12:11:29 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\routes\documents.js:54:9
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+2025-04-20 12:13:44 ERROR: Error: No file uploaded
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:24:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\routes\documents.js:54:9
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at multerMiddleware (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+2025-04-20 12:20:38 ERROR: ReferenceError: mongoose is not defined
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:71
+    at Array.some (<anonymous>)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:60
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:22:35 ERROR: ReferenceError: mongoose is not defined
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:71
+    at Array.some (<anonymous>)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:60
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:23:00 ERROR: ReferenceError: mongoose is not defined
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:71
+    at Array.some (<anonymous>)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:60
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:23:27 ERROR: ReferenceError: mongoose is not defined
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:71
+    at Array.some (<anonymous>)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:297:60
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\authMiddleware.js:51:5
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:43:21 ERROR: Error: Not authorized to update this document
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:261:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:44:50 ERROR: Error: User not found with the provided identifier
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:177:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:45:00 ERROR: Error: Please provide an email and password
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:59:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 12:50:13 ERROR: ValidationError: Document validation failed: fileMimeType: File MIME type is required
+    at Document.invalidate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3351:32)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3112:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-04-20 12:50:42 ERROR: ValidationError: Document validation failed: fileMimeType: File MIME type is required
+    at Document.invalidate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3351:32)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3112:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-04-20 12:50:58 ERROR: ValidationError: Document validation failed: fileMimeType: File MIME type is required
+    at Document.invalidate (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3351:32)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\document.js:3112:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-04-20 12:53:00 ERROR: Error: Please provide an email and password
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\authController.js:59:17
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\middleware\asyncHandler.js:7:19
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:582:12)
+    at next (C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\node_modules\router\index.js:291:5)
+2025-04-20 12:53:00 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:00 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:10 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:10 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:12 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:12 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:14 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:14 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:17 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:17 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:20 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 12:53:20 ERROR: Error: Not authorized to view this user profile
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
