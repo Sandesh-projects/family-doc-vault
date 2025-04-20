@@ -846,3 +846,22 @@
 2025-04-20 12:53:25 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
 2025-04-20 12:53:26 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
 2025-04-20 12:53:26 INFO: User profile 6804939158235f273b5d67ca retrieved by user 6804946858235f273b5d6806
+2025-04-20 13:34:22 INFO: Server running on port 5000
+2025-04-20 13:34:22 INFO: MongoDB Connected: localhost
+2025-04-20 13:34:31 INFO: User logged in successfully: sandesh@mail.com (ID: 6804946858235f273b5d6806)
+2025-04-20 13:34:31 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 13:34:31 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 13:34:35 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 13:34:35 INFO: Document retrieved successfully: "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 13:34:37 INFO: Initiating download for document "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 13:34:37 INFO: Download completed successfully for document "AIDS Mini Project Report.docx" (ID: 680498c598edd0247ff72cf6) by user 6804946858235f273b5d6806
+2025-04-20 13:34:43 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 13:34:43 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 13:34:44 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804a0af3f702656437af649) by user 6804946858235f273b5d6806
+2025-04-20 13:34:44 INFO: Document retrieved successfully: "DS-11.pdf" (ID: 6804a0af3f702656437af649) by user 6804946858235f273b5d6806
+2025-04-20 13:34:45 ERROR: Download failed: File not found on filesystem for document 6804a0af3f702656437af649 at path C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\uploads\document-1745133743604.pdf. Error: ENOENT: no such file or directory, stat 'C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\uploads\document-1745133743604.pdf'
+2025-04-20 13:34:45 ERROR: Error: File not found on the server
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:181:26
+    at FSReqCallback.oncomplete (node:fs:197:21)
+2025-04-20 13:34:46 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)
+2025-04-20 13:34:46 INFO: Workspaceed 2 documents for user 6804946858235f273b5d6806 (Total: 2)

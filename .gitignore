@@ -7,7 +7,6 @@ node_modules/
 # Ignore backend specific files
 /backend/uploads/ # Ignore uploaded files
 /backend/logs/    # Ignore backend log files
-
 # Ignore frontend build output directory (Vite default is 'dist')
 /frontend-vite/dist/
 

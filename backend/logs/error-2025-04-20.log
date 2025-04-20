@@ -333,3 +333,7 @@
 2025-04-20 12:53:20 ERROR: Error: Not authorized to view this user profile
     at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\userController.js:128:21
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-04-20 13:34:45 ERROR: Download failed: File not found on filesystem for document 6804a0af3f702656437af649 at path C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\uploads\document-1745133743604.pdf. Error: ENOENT: no such file or directory, stat 'C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\uploads\document-1745133743604.pdf'
+2025-04-20 13:34:45 ERROR: Error: File not found on the server
+    at C:\Users\Sandesh\OneDrive\Desktop\family-doc-vault\backend\controllers\documentController.js:181:26
+    at FSReqCallback.oncomplete (node:fs:197:21)

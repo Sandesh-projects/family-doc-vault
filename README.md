@@ -1,104 +1,34 @@
-FamilyDocVault
-FamilyDocVault is a secure web application built with the MERN stack (MongoDB, Express.js, React, Node.js) designed to help users securely store, manage, and share important family documents with trusted family members.
-Features
-User Authentication: Secure registration and login using JWT (JSON Web Tokens).
-Profile Management: Users can view and edit their profile information.
-Family Member Linking: Users can link other registered users as family members using email or Aadhaar number.
-Document Upload: Securely upload various document types (images, PDFs, documents).
-Document Management: View a list of uploaded documents, filter by owned or shared documents.
-Document Details: View details of a specific document.
-Document Download: Download uploaded documents.
-Document Metadata Editing: Edit document type and description.
-Document Deletion: Delete owned documents.
-Document Sharing: Share owned documents with linked family members.
-Role-Based Access (Basic): Documents are primarily owned by the uploader, with sharing mechanisms for access control.
-Logging: Server-side logging using Winston.
-Technologies Used
-Backend:
-Node.js
-Express.js
-MongoDB (with Mongoose ODM)
-JWT (JSON Web Tokens) for authentication
-Bcryptjs for password hashing
-Multer for handling multipart/form-data (file uploads)
-Winston for logging
-Nodemon for development server auto-restarts
-Frontend (Vite React App):
-React (with Hooks)
-Vite (Build tool)
-React Router DOM for navigation
-Axios for API calls
-Bootstrap & React-Bootstrap for UI components and styling
-JWT-decode for decoding JWTs on the client side
-Setup Instructions
-Follow these steps to set up and run the project on your personal computer.
-Prerequisites
-Node.js and npm: Make sure you have Node.js and npm (Node Package Manager) installed. You can download them from nodejs.org. npm is included with Node.js. (Alternatively, you can use Yarn).
-MongoDB: You need a running MongoDB instance. You can install MongoDB locally (MongoDB Community Server) or use a cloud-based service like MongoDB Atlas (provides a free tier).
-
-1. Clone the Repository
-   Assuming your project is in a Git repository, clone it to your local machine:
-   git clone <repository_url>
-   cd family-doc-vault
-
-2. Backend Setup
-   Navigate into the backend directory:
-   cd backend
-
-Install backend dependencies:
-npm install
+FamilyDocVaultFamilyDocVault is a secure web application designed to store, manage, and share important family documents within a trusted network of family members. Built using the MERN stack, it provides a robust platform for digital document safekeeping and controlled access.FeaturesUser Authentication: Secure user registration and login using JSON Web Tokens (JWT).Profile Management: Users can view and update their personal profile details.Family Member Linking: Functionality to connect with other registered users as family members via email or Aadhaar number.Document Upload: Secure uploading of various document file types.Document Listing & Filtering: View documents owned by the user or shared with them, with options to filter the list.Document Details & Preview: Access detailed information about a specific document.Document Download: Securely download document files.Document Metadata Editing: Update document type and description.Document Deletion: Remove owned documents from the system.Document Sharing: Share specific owned documents with selected linked family members.Basic Access Control: Authorization checks ensure users can only access documents they own or are explicitly shared with.Technologies UsedThis project is built using the following key technologies:Backend:Node.js & Express.js: For the server-side runtime and RESTful API.MongoDB & Mongoose: As the NoSQL database and Object Data Modeling (ODM) library.JWT (jsonwebtoken): For stateless authentication.Bcryptjs: For secure password hashing.Multer: Middleware for handling multipart/form-data, primarily for file uploads.Winston: A versatile logging library.Nodemon: A utility that monitors for changes in your source and automatically restarts the server (used in development).Frontend (Vite React App):React: The JavaScript library for building the user interface.Vite: A fast build tool for modern web development.React Router DOM: For declarative routing in the React application.Axios: A promise-based HTTP client for making API requests.Bootstrap & React-Bootstrap: For responsive UI components and styling.jwt-decode: A small library to decode JWTs on the client side.Setup InstructionsFollow these steps to get the FamilyDocVault project running on your local machine.PrerequisitesEnsure you have the following installed:Node.js and npm: Download from nodejs.org. npm is included.MongoDB: Install MongoDB Community Server locally or use a cloud service like MongoDB Atlas.Git: Download from git-scm.com.1. Clone the RepositoryOpen your terminal or command prompt and clone the project repository:git clone <repository_url>
+cd family-doc-vault 2. Backend SetupNavigate into the backend directory:cd backend
+Install the backend dependencies:npm install
 
 # or yarn install
 
-Create a .env file in the backend directory and add the following environment variables. Replace the placeholder values with your actual configuration.
-NODE_ENV=development # or production
-PORT=5000 # Or any port you prefer
-MONGO_URI=mongodb://localhost:27017/familydocvault # Your MongoDB connection string
-JWT_SECRET=your_jwt_secret_key # A strong, random secret key for JWT
-JWT_EXPIRE=30d # JWT expiry time (e.g., 30 days)
+Create a file named .env in the backend directory. Copy and paste the following content, replacing the placeholder values with your actual configuration:NODE_ENV=development
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/familydocvault
+JWT_SECRET=your_very_strong_and_random_jwt_secret_key
+JWT_EXPIRE=30d
 
-# Add any other backend specific environment variables here
+# Add other backend specific variables here
 
-Important: Create an uploads folder directly inside the backend directory. This folder is used by Multer to store uploaded files.
-mkdir uploads
-
-3. Frontend Setup
-   Navigate into the frontend-vite directory:
-   cd ../frontend-vite
-
-Install frontend dependencies:
-npm install
+Important: Create an uploads folder directly inside the backend directory. This folder is essential for storing uploaded documents.mkdir uploads 3. Frontend SetupNavigate into the frontend-vite directory:cd ../frontend-vite
+Install the frontend dependencies:npm install
 
 # or yarn install
 
-Create a .env file in the frontend-vite directory and add the following environment variable. This tells your frontend where your backend API is located.
-VITE_REACT_APP_API_URL=http://localhost:5000 # Match the backend PORT
+Create a file named .env in the frontend-vite directory. Add the following variable, ensuring the URL matches your backend's port:VITE_REACT_APP_API_URL=http://localhost:5000
 
-# Add any other frontend specific environment variables here, prefixed with VITE\_
+# Add other frontend specific variables here, prefixed with VITE\_
 
-4. Run the Project
-   You need to run both the backend and the frontend development servers concurrently.
-   Start the Backend:
-   Open a terminal, navigate to the backend directory, and run:
-   cd backend
-   npm run dev # Or nodemon server.js if you prefer
+4. Run the ProjectYou need to start both the backend server and the frontend development server.Start the Backend Server:Open a terminal, go to the backend directory, and run:cd backend
+   npm run dev
 
-The backend server should start, typically showing a message like "Server running on port 5000" and "MongoDB Connected".
-Start the Frontend:
-Open a new terminal, navigate to the frontend-vite directory, and run:
-cd frontend-vite
-npm run dev # Or yarn dev
+# or nodemon server.js
 
-The Vite development server should start and provide a local URL (e.g., http://localhost:5173/). Open this URL in your web browser.
-Usage
-Register: Create a new user account.
-Login: Log in with your registered credentials.
-Profile: View and edit your profile, including linking family members.
-Family Members: Manage your linked family members by adding or removing them.
-Documents: Upload new documents, view your owned and shared documents, view details, download, edit metadata, delete (if owned), and share with linked family members.
-Notes
-Ensure your MongoDB instance is running before starting the backend.
-Keep your JWT secret key secure and do not share it.
-For production deployment, you would typically build the frontend (npm run build in frontend-vite) and serve the static files, often from the same server as the backend or a separate static hosting service. Environment variables would also be configured differently in a production environment.
-Error handling and validation can always be further enhanced.
-This README provides a comprehensive guide for anyone looking to understand, set up, and run your FamilyDocVault project.
+You should see messages indicating the server is running and connected to MongoDB.Start the Frontend Server:Open a new terminal, go to the frontend-vite directory, and run:cd frontend-vite
+npm run dev
+
+# or yarn dev
+
+Vite will start the development server and provide a local URL (e.g., http://localhost:5173/). Open this URL in your web browser to access the application.UsageOnce both servers are running and you open the frontend URL:Register a new user account.Login using your credentials.Explore the Profile page to view and edit your details and manage family members.Use the Documents section to upload, view, download, edit, delete, and share documents.Link other registered users as family members via their email or Aadhaar number on the Manage Family Members page.NotesEnsure your MongoDB server is running before starting the backend.The .env files should be kept confidential and not committed to your repository.For production deployment, the process would involve building the frontend (e.g., npm run build) and setting up a production-ready server environment for both the backend and the static frontend files.Consider adding more robust input validation and error handling for production use.
